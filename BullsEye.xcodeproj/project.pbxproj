@@ -21,6 +21,8 @@
 		7BF720B817C253AD00A7ECBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF7209A17C253AD00A7ECBB /* UIKit.framework */; };
 		7BF720C017C253AD00A7ECBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BF720BE17C253AD00A7ECBB /* InfoPlist.strings */; };
 		7BF720C217C253AD00A7ECBB /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF720C117C253AD00A7ECBB /* BullsEyeTests.m */; };
+		7BF720CE17C4EDF600A7ECBB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF720CC17C4E0AA00A7ECBB /* AboutViewController.m */; };
+		7BF720D017C50A6700A7ECBB /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 7BF720CF17C50A6700A7ECBB /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		7BF720BD17C253AD00A7ECBB /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		7BF720BF17C253AD00A7ECBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BF720C117C253AD00A7ECBB /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		7BF720CB17C4E0AA00A7ECBB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		7BF720CC17C4E0AA00A7ECBB /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		7BF720CF17C50A6700A7ECBB /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +117,15 @@
 		7BF7209C17C253AD00A7ECBB /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				7BF720CB17C4E0AA00A7ECBB /* AboutViewController.h */,
+				7BF720CC17C4E0AA00A7ECBB /* AboutViewController.m */,
+				7BF720CF17C50A6700A7ECBB /* BullsEye.html */,
 				7BF720A517C253AD00A7ECBB /* BullsEyeAppDelegate.h */,
 				7BF720A617C253AD00A7ECBB /* BullsEyeAppDelegate.m */,
-				7BF720A817C253AD00A7ECBB /* Main.storyboard */,
 				7BF720AB17C253AD00A7ECBB /* BullsEyeViewController.h */,
 				7BF720AC17C253AD00A7ECBB /* BullsEyeViewController.m */,
 				7BF720AE17C253AD00A7ECBB /* Images.xcassets */,
+				7BF720A817C253AD00A7ECBB /* Main.storyboard */,
 				7BF7209D17C253AD00A7ECBB /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -127,9 +135,9 @@
 			isa = PBXGroup;
 			children = (
 				7BF7209E17C253AD00A7ECBB /* BullsEye-Info.plist */,
+				7BF720A417C253AD00A7ECBB /* BullsEye-Prefix.pch */,
 				7BF7209F17C253AD00A7ECBB /* InfoPlist.strings */,
 				7BF720A217C253AD00A7ECBB /* main.m */,
-				7BF720A417C253AD00A7ECBB /* BullsEye-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BF720AF17C253AD00A7ECBB /* Images.xcassets in Resources */,
+				7BF720D017C50A6700A7ECBB /* BullsEye.html in Resources */,
 				7BF720A117C253AD00A7ECBB /* InfoPlist.strings in Resources */,
 				7BF720AA17C253AD00A7ECBB /* Main.storyboard in Resources */,
 			);
@@ -252,6 +261,7 @@
 			files = (
 				7BF720A317C253AD00A7ECBB /* main.m in Sources */,
 				7BF720AD17C253AD00A7ECBB /* BullsEyeViewController.m in Sources */,
+				7BF720CE17C4EDF600A7ECBB /* AboutViewController.m in Sources */,
 				7BF720A717C253AD00A7ECBB /* BullsEyeAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +465,7 @@
 				7BF720C717C253AD00A7ECBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BF720C817C253AD00A7ECBB /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +474,7 @@
 				7BF720CA17C253AD00A7ECBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
